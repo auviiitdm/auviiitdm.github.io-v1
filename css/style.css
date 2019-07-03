@@ -102,6 +102,12 @@ a:hover{
   height: auto ;
 }
 
+.sponslogo{
+	width: 50%;
+	height: auto;
+	
+}
+
 .ref{  /*to give the reference in anchor tag */
   z-index: 100 ;
 }
@@ -258,6 +264,7 @@ hr.socket{
   border-top: 0.2rem solid #666b71 ;
   margin-top: 2rem ;
 }
+
 
 /* media queries */
 @media (max-width: 767px){
