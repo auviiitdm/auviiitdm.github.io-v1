@@ -17,7 +17,7 @@
     <div id="home" class="offset">
 
       <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="index.html"><img  src="img/AUVFINAL.png"></a>
+        <a class="navbar-brand" href="index.html"><img src="img/AUVFINAL.png" border="15"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,7 +40,7 @@
           </div>
         </div>
       </div>
-      <div class="caption text-center">
+      <div class="caption text-center col-sm-10">
         <h1>The AUV Society, IIITDM Kancheepuram</h1>
         <h3>Autonomous Underwater Vehicles</h3>
       </div>
@@ -55,20 +55,23 @@
         <h2 class="heading">About Us</h2>
         <div class="heading-underline"></div>
         <div class="row row-no-glutters">
-            <div class="col-sm-3 ref">
+            <div class="col-sm-3 col-md-4 ref">
               <a href="https://www.iiitdm.ac.in/" target="_blank"><img src="img/ilogo.png" alt="" class="ilogo"></a>
             </div>
-            <div class="col-sm-9">
-              <div class="row row-no-glutters">
-                <div class="col-sm-12 ">
-                  <p class="lead">We are an intellectual interdisciplinary team of undergraduate engineers working to build an autonomous underwater vehicle for various underwater robotics competitions. We as a technical society, are trying to come forward to explore different dimensions of engineering, binding together our theoretical knowledge into a vehicle that can go and explore the vast seas.</p>
-                  <p class="lead" text-align="initial">Indian Institute of Information Technology Design and Manufacturing Kancheepuram <a href="https://www.iiitdm.ac.in/" target="_blank" class="college">(IIITDM Kancheepuram)</a>
+			<div class="col-sm-3 col-md-8 ref">
+              <a href="#" target="_blank"><img src="img/AUVFINAL.png" alt="" class="elogo"></a>
+            </div>
+              
+                <div class="col-md-12 ">
+				<h4>
+                  <p class="lead col-sm-12" >We are an intellectual interdisciplinary team of undergraduate engineers working to build an autonomous underwater vehicle for various underwater robotics competitions. We as a technical society, are trying to come forward to explore different dimensions of engineering, binding together our theoretical knowledge into a vehicle that can go and explore the vast seas.</p>
+                  <p class="lead" >Indian Institute of Information Technology Design and Manufacturing Kancheepuram <a href="https://www.iiitdm.ac.in/" target="_blank" class="college">(IIITDM Kancheepuram)</a>
                     is a Centre of Excellence for technical education and research established in 2007 by the Ministry of
                     Human Resource Development, Government of India to pursue design and manufacturing oriented engineering
                     education and research and to promote the competitive advantage of Indian products in global markets.</p>
-                </div>
-              </div>
-            </div>
+                </h4>
+				</div>
+            
         </div>
       </div>
     </div>
@@ -85,9 +88,16 @@
             <h2 class="heading">Our Underwater Collection</h2>
             <div class="heading-underline"></div>
           </div>
+		  
+		  <button class="fun" type="button" name="vehiclebutton" color="blue" data-toggle="collapse" data-target="#vlist">
+            <b>Click to view our Vehicles.</b>
+          </button>
 
-          <h3 class="heading">Version 1</h3>
-          <div class="row text-center">
+		  <div class="collapse" id="vlist">
+            <div class="container-fluid padding ppic">
+
+				<h3 class="heading">Version 1</h3>
+			<div class="row text-center">
 
             <div class="col-md-6">
               <div class="feature">
@@ -103,8 +113,10 @@
               </div>
             </div>
 
-          </div><!-- end of row-->
-
+			</div>
+		</div>
+          <!-- end of row-->
+		</div>
         </div><!-- narrow ends-->
       </div><!-- jumbotron ends-->
 
@@ -328,7 +340,7 @@
           </div>
 		  -->
 			
-          <div class="col-md-6 ref">
+          <div class="col-md-5 ref">
             <a href="https://www.simscale.com/" target="_blank"> <img src="img/SimScale_logo_Rev_White.png" alt="" class="sponslogo"> </a>
           </div>
 
@@ -346,11 +358,13 @@
 
     <!--- Start Contact -->
     <footer>
+	
+	<h4>
       <div id="contact" class="offset">
 
         <div class="row justify-content-center">
-          <div class="col-md-5 text-center">
-            <a class="navbar-brand" href="index.html"><img  src="img/AUVFINAL.png" class="elogo" ></a>
+          <div class="col-md-12 text-center">
+            <a href="index.html"><img src="img/AUVFINAL.png" class="ilogo"></a>
             <p>Aiming higher, diving deeper.</p>
             <strong>Contact Info</strong>
             <p><a href="mailto:auv.society@iiitdm.ac.in">auv.society@iiitdm.ac.in</a></p>
@@ -364,7 +378,8 @@
         </div>
 
       </div>
-    </footer>
+	</h4>
+	</footer>
     <!-- End Contact-->
 
   </body>
