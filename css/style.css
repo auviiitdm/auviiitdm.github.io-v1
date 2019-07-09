@@ -102,6 +102,12 @@ a:hover{
   height: auto ;
 }
 
+.sponslogo{
+	width: 50%;
+	height: auto;
+	
+}
+
 .ref{  /*to give the reference in anchor tag */
   z-index: 100 ;
 }
@@ -119,8 +125,8 @@ a:hover{
   background-color: #0067a5 ;
 }
 
-.elogo{  //for the footer logo
-  width: 100% ;
+.elogo{
+  width: 90% ;
   max-width: 100% ;
   height: auto;
 }
@@ -258,6 +264,7 @@ hr.socket{
   border-top: 0.2rem solid #666b71 ;
   margin-top: 2rem ;
 }
+
 
 /* media queries */
 @media (max-width: 767px){
