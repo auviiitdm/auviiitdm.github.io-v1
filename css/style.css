@@ -43,6 +43,7 @@ p{
 
 .navbar-brand img{
   height: 3rem ;
+  background: white;
 }
 
 .navbar-nav li{
@@ -102,14 +103,14 @@ p{
 }
 
 .sauvl{
-  width: 15% ;
-  max-width: 15% ;
+  width: 30% ;
   height: auto ;
 }
 
 .sponslogo{
 	width: 65%;
-	height: auto;
+  height: auto;
+  margin-top: 10%;
 	
 }
 
@@ -135,6 +136,7 @@ p{
   max-width: 30% ;
   height: auto;
   margin: auto;
+  background: white;
 }
 
 .btn-secondary {
@@ -192,8 +194,8 @@ h2.heading {
   background-color: #0067a5 ;
   margin: 0 auto 1rem ;
 }
-.feature h3{
-  font-size: 1.3rem ;
+.feature h5{
+  font-size: 1rem ;
   text-transform: uppercase;
   padding-bottom: 0.4rem ;
 }
@@ -271,7 +273,8 @@ footer{
 }
 footer img{
   height: 3rem ;
-  margin: 1rem 0 ;
+  margin: 3rem 0 1rem;
+  background: white;
 }
 .social a{
   font-size: 1.6rem ;
@@ -333,8 +336,7 @@ hr.socket{
   }
 
   .ilogo{
-    width: 20% ;
-    max-width: 180px ;
+    width: 35% ;
     height: auto;
   }
 
@@ -366,7 +368,7 @@ hr.socket{
     padding: 5rem 2rem;
   }
   .dark3{
-    padding: 10rem 2rem;
+    padding: 5rem 2rem;
   }
   .member-pic{
     width: 50%;
@@ -376,25 +378,31 @@ hr.socket{
   .sponslogo{
     width:60%;
     height: auto;
+    margin-top: 0%;
   }
 
 }
 
 @media (max-width: 400px) {
   .elogo {
-    width: 55%;
-    max-width: 60%;
+    width: 50%;
+    max-width: 63%;
     height: auto;
-    margin: auto;
-}
+    margin-top: 5%;
+  }
+  p {
+    font-size: 0.75rem;
+  }
+  .dark3 {
+    padding: 8rem 2rem;
+  }
 }
 
 @media (min-width:420px) and (max-width:1000px){
   .elogo {
-    width: 48%;
+    width: 45%;
     max-width: 60%;
     height: auto;
-    margin: auto;
 }
 }
 
@@ -403,8 +411,13 @@ hr.socket{
     width: 30%;
     max-width: 60%;
     height: auto;
-    margin: auto;
-}
+  }
+  .ilogo{
+    width:50%;
+  }
+  .sponslogo{
+    margin-top: 15%;
+  }
 }
 
 
@@ -413,11 +426,16 @@ hr.socket{
     font-size: 1.3rem;
   }
   p {
-    font-size: 0.78rem;
+    font-size: 0.7rem;
   }
   h2.heading {
     font-size: 1.5rem;
   }
+  .elogo {
+    width: 65%;
+    max-width: 75%;
+    height: auto;
+}
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
