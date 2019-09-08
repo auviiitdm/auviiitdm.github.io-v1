@@ -167,7 +167,7 @@ p{
 .dark2{
   background-color: rgba(0,0,0,0.25) ;
   color: white ;
-  padding: 0rem 2rem 18rem; ;
+  padding: 0rem 2rem 5rem;
 }
 
 .narrow h1{
@@ -365,7 +365,7 @@ hr.socket{
     width: 70% !important;
   }
   .dark {
-    padding: 5rem 2rem;
+    padding: 5rem 2rem 5rem;
   }
   .dark3{
     padding: 5rem 2rem;
@@ -394,7 +394,7 @@ hr.socket{
     font-size: 0.75rem;
   }
   .dark3 {
-    padding: 8rem 2rem;
+    padding: 7rem 2rem 10rem;
   }
 }
 
@@ -426,7 +426,7 @@ hr.socket{
     font-size: 1.3rem;
   }
   p {
-    font-size: 0.7rem;
+    font-size: 0.78rem;
   }
   h2.heading {
     font-size: 1.5rem;
