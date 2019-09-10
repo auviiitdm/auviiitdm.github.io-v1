@@ -485,9 +485,9 @@ hr.socket{
     width: 35%;
   }
   .sponslogo {
-    width: 70%;
+    width: 40%;
     height: auto;
-    margin-top: 10%; 
+    margin-top: 0; 
   }
   .ilogo{
     width:25%;
