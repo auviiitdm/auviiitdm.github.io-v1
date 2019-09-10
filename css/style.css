@@ -61,7 +61,7 @@ p{
 }
 
 .ilogo{
-  width: 100% ;
+  width: 40% ;
   max-width: 180px ;
   min-width: 90px ;
   height: auto;
@@ -108,7 +108,7 @@ p{
 }
 
 .sponslogo{
-	width: 65%;
+	width: 75%;
   height: auto;
   margin-top: 10%;
 	
@@ -178,7 +178,7 @@ p{
 
 .jumbotron{
   margin-bottom: 0 ;
-  padding: 2.5rem 0 3.5rem ;
+  padding: 1.5rem 0 3.5rem ;
   border-radius: 0 ;
 }
 
@@ -203,10 +203,13 @@ h2.heading {
   font-size: 1.1rem ;
 }
 .vid_container{
-  width:50%;
-  height: 100%;
-  margin-left: 25%;
+  width:450px;
+  height: 250px;
+  margin:1% 5%;
   display: block;
+}
+.version_pic{
+  width:50%;
 }
 /* Achievements */
 .fixed {
@@ -304,7 +307,7 @@ hr.socket{
 .dark3{
   background-color: rgba(0,0,0,0.65) ;
   color: white ;
-  padding: 15rem 2rem ;
+  padding: 2.5rem 2rem ;
 }
 
 /* media queries */
@@ -330,7 +333,7 @@ hr.socket{
   }
   
   .ppic img{
-    max-width: 25% ;
+    /* max-width: 25% ; */
     margin: 0 auto ;
     height: auto; 
   }
@@ -346,9 +349,12 @@ hr.socket{
 @media (max-width: 500px) {
   .vid_container{
     width:100%;
-    height: 100%;
+    height: 140px;
     margin-left: 0px;
     display: block;
+  }
+  .version_pic{
+    width:98%;
   }
   h2.heading {
     font-size: 2rem ;
@@ -357,7 +363,7 @@ hr.socket{
     font-size: 0.85rem;
   }
   .ppic img {
-    max-width: 70%;
+    /* max-width: 70%; */
     margin: 0 auto;
     height: auto;
   }
@@ -368,7 +374,7 @@ hr.socket{
     padding: 5rem 2rem 5rem;
   }
   .dark3{
-    padding: 5rem 2rem;
+    padding: 3rem 2rem;
   }
   .member-pic{
     width: 50%;
@@ -376,7 +382,7 @@ hr.socket{
     padding-bottom: 1rem;
   }
   .sponslogo{
-    width:60%;
+    width:65%;
     height: auto;
     margin-top: 0%;
   }
@@ -384,6 +390,9 @@ hr.socket{
 }
 
 @media (max-width: 400px) {
+  .vid_container{
+    height: 120px;
+  }
   .elogo {
     width: 50%;
     max-width: 63%;
@@ -394,7 +403,7 @@ hr.socket{
     font-size: 0.75rem;
   }
   .dark3 {
-    padding: 7rem 2rem 10rem;
+    padding: 3rem 2rem 10rem;
   }
 }
 
@@ -406,7 +415,7 @@ hr.socket{
 }
 }
 
-@media (min-width:1020px) and (max-width:1025px){
+@media (min-width:1020px) and (max-width:1399px){
   .elogo {
     width: 30%;
     max-width: 60%;
@@ -418,7 +427,23 @@ hr.socket{
   .sponslogo{
     margin-top: 15%;
   }
+  
 }
+
+@media (min-width:1300px) and (max-width:1399px){
+  .vid_container{
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media (min-width:1020px) and (max-width:1299px){
+  .vid_container{
+    width:330px;
+    height: 180px;
+  }
+}
+
 
 
 @media (max-width: 370px) {
@@ -435,7 +460,10 @@ hr.socket{
     width: 65%;
     max-width: 75%;
     height: auto;
-}
+  }
+  .vid_container{
+    height: 100px;
+  }
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
