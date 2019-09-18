@@ -63,7 +63,7 @@ p{
 .ilogo{
   width: 40% ;
   max-width: 180px ;
-  min-width: 90px ;
+  min-width: 100px ;
   height: auto;
 }
 
@@ -203,9 +203,9 @@ h2.heading {
   font-size: 1.1rem ;
 }
 .vid_container{
-  width:450px;
-  height: 250px;
-  margin:1% 5%;
+  width:560px;
+  height: 315px;
+  margin:auto;
   display: block;
 }
 .version_pic{
@@ -225,6 +225,10 @@ h2.heading {
   background-color: rgba(0,0,0,0.65) ;
   color: white ;
   padding: 10rem 2rem ;
+}
+
+.small{
+  padding: 6rem 0rem ;
 }
 
 .fixed-background h3{
@@ -310,6 +314,11 @@ hr.socket{
   padding: 2.5rem 2rem ;
 }
 
+.partner{
+  font-size: 1rem;
+  color: gray;
+}
+
 /* media queries */
 @media (max-width: 767px){
   .caption h1{
@@ -360,7 +369,7 @@ hr.socket{
     font-size: 2rem ;
   }
   p {
-    font-size: 0.85rem;
+    font-size: 0.85rem !important;
   }
   .ppic img {
     /* max-width: 70%; */
@@ -372,6 +381,9 @@ hr.socket{
   }
   .dark {
     padding: 5rem 2rem 5rem;
+  }
+  .small{
+    padding: 5rem 0rem 2rem;
   }
   .dark3{
     padding: 3rem 2rem;
@@ -400,7 +412,7 @@ hr.socket{
     margin-top: 5%;
   }
   p {
-    font-size: 0.75rem;
+    font-size: 0.75rem !important;
   }
   .dark3 {
     padding: 3rem 2rem 10rem;
@@ -430,17 +442,26 @@ hr.socket{
   
 }
 
+@media (min-width:1100px) and (max-width:1399px){
+  .elogo {
+    width: 20% !important;
+    margin-top: 1%;
+    max-width: 60%;
+    height: auto;
+  }
+}
+
 @media (min-width:1300px) and (max-width:1399px){
   .vid_container{
-    width: 400px;
-    height: 225px;
+    width: 560px;
+    height: 315px;
   }
 }
 
 @media (min-width:1020px) and (max-width:1299px){
   .vid_container{
-    width:330px;
-    height: 180px;
+    width:400px;
+    height: 225px;
   }
 }
 
@@ -451,7 +472,7 @@ hr.socket{
     font-size: 1.3rem;
   }
   p {
-    font-size: 0.78rem;
+    font-size: 0.78rem !important;
   }
   h2.heading {
     font-size: 1.5rem;

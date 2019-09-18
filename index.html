@@ -14,9 +14,9 @@
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script>
-  $('.nav-link').on('click',function() {
-  $('.navbar-collapse').collapse('hide');
-});
+    $('.nav-link').on('click', function () {
+      $('.navbar-collapse').collapse('hide');
+    });
   </script>
 </head>
 
@@ -32,6 +32,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"> <a class="nav-link" href="#home"> Home </a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#intro"> An Insight </a> </li>
           <li class="nav-item"> <a class="nav-link" href="#about"> About </a> </li>
           <li class="nav-item"> <a class="nav-link" href="#drone"> Vehicles </a> </li>
           <!-- drones are taken in as vehicles -->
@@ -56,6 +57,27 @@
 
   </div>
   <!-- End Home-->
+
+  <!-- Start Intro Video-->
+  <div id="intro" class=" dark small text-center">
+    
+    <div class="narrow">
+        <h2 class="heading">An Insight</h2>
+        <div class="heading-underline"></div>
+      <div class="container-fluid padding ppic">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="feature">
+              <iframe data-type="iframe" class="vid_container" style="margin:auto;" src="https://www.youtube.com/embed/NsHS6F2bjII?autoplay=1&playlist=NsHS6F2bjII&loop=1"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Start Intro Video-->
 
   <!--- Start About -->
   <div id="about" class="dark2">
@@ -121,30 +143,20 @@
                 </div>
               </div>
 
-              <div class="col-sm-6">
+              <div class="col-sm-12">
                 <div class="feature">
                   <!-- <div class="vid_container"> -->
-                    <!-- <video class="vid" width="100%" style="object-fit:cover;" controls>
+                  <!-- <video class="vid" width="100%" style="object-fit:cover;" controls>
                     <video class="vid" width="100%" style="object-fit:cover;" controls>
                       <source src="img/final_vid.webm" type="video/webm">
                       <source src="img/final_vid.mp4" type="video/mp4">
                       Your browser does not support the video tag.
                     </video> -->
-                    <iframe data-type="iframe" class="vid_container" src="https://www.youtube.com/embed/c58AMctLp04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe data-type="iframe" class="vid_container" src="https://www.youtube.com/embed/c58AMctLp04?autoplay=1&playlist=c58AMctLp04&loop=1&autopause=0&mute=1"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
                   <!-- </div> -->
                 </div>
-              </div>
-
-              <div class="col-sm-6">
-                <div class="feature">
-                  <!-- <div class="vid_container"> -->
-                    <!-- <video class="vid" width="100%" style="object-fit:cover;" controls>
-                    <video class="vid" width="100%" style="object-fit:cover;" controls>
-                      <source src="img/final_vid.webm" type="video/webm">
-                      <source src="img/final_vid.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                    </video> -->
-                    <iframe data-type="iframe" class="vid_container" style="margin:auto;" src="https://www.youtube.com/embed/NsHS6F2bjII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                </div>
               </div>
 
               <div class="col-sm-12">
@@ -445,21 +457,29 @@
           </a>
         </div>
         <div class="col-md-4 ref">
-            <a href="https://www.iiitdm.ac.in/" target="_blank"> <img src="img/ilogo.png" alt="" class="ilogo">
-            </a>
+          <a href="https://www.iiitdm.ac.in/" target="_blank"> <img src="img/ilogo.png" alt="" class="ilogo">
+          </a>
         </div>
         <div class="col-md-4 ref">
-            <a href="https://bluerobotics.com/" target="_blank"> <img src="img/BlueRobotics__white-min.png" alt="" class="sponslogo">
-            </a>
+          <a href="https://bluerobotics.com/" target="_blank"> <img src="img/BlueRobotics__white-min.png" alt="" class="sponslogo">
+          </a>
         </div>
-        
+        <div class="col-md-12 ref">
+          <p class="partner">If you would like to partner with us, please do mail us at: <a class="mail" style="color:lightblue;"
+              href="mailto:auv.society@iiitdm.ac.in">auv.society@iiitdm.ac.in</a>
+            <br>Please click here to support us: <a class="mail" style="color:lightblue;" href="https://www.ketto.org/fundraiser/fund-the-auv-society-for-team-orca">Fund
+              the AUV Society for Team Orca</a>
+          </p>
+        </div>
+
         <div class="col-12">
           <h2 class="heading">Mentored By</h2>
           <div class="heading-underline"></div>
         </div>
 
         <div class="col-sm-12 ref">
-          <a href="https://www.drdo.gov.in/drdo/English/index.jsp?pg=homebody.jsp" target="_blank"> <img src="img/DRDO_Logo-min.png" alt="" style="width:12%;" class="ilogo">
+          <a href="https://www.drdo.gov.in/drdo/English/index.jsp?pg=homebody.jsp" target="_blank"> <img src="img/DRDO_RIC_Logo-min.png"
+              alt="" style="width:13%;" class="ilogo">
           </a>
         </div>
 
@@ -473,7 +493,7 @@
     </div><!-- end of fixed background-->
   </div>
   <!-- End Sponsors-->
-  
+
   <!--- Start Contact -->
   <footer>
 
