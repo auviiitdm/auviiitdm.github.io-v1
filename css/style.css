@@ -386,10 +386,10 @@ hr.socket{
     padding: 5rem 0rem 2rem;
   }
   .dark3{
-    padding: 3rem 2rem;
+    padding: 3rem 2rem 0rem;
   }
   .dark4{
-    padding: 8rem 2rem !important;
+    padding: 5rem 2rem 10rem!important;
   }
   .member-pic{
     width: 50%;
@@ -418,7 +418,7 @@ hr.socket{
     font-size: 0.75rem !important;
   }
   .dark3 {
-    padding: 3rem 2rem 10rem;
+    padding: 3rem 2rem 0rem;
   }
 }
 
