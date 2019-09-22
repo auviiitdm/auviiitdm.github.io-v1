@@ -388,6 +388,9 @@ hr.socket{
   .dark3{
     padding: 3rem 2rem;
   }
+  .dark4{
+    padding: 8rem 2rem !important;
+  }
   .member-pic{
     width: 50%;
     border-radius: 50%; 
